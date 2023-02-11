@@ -63,7 +63,7 @@ const Members = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-y-10 md:gap-y-20 gap-x-5 justify-center items-center mt-24 mb-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 self-center">
+            <div className="grid grid-cols-1 gap-y-24 md:gap-y-20 gap-x-5 justify-center items-center mt-24 mb-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 self-center">
 
                 {
                     data.map((item,index)=><MemberCard data={item} key={index} />)
