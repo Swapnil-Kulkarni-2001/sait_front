@@ -7,7 +7,7 @@ import ClubServices from "./components/ClubServices"
 import Members from "./components/Members"
 import Footer from "./components/Footer"
 import Contact from "./components/Contact"
-import Otheractivities from "./components/otheractivities"
+import Otheractivities from "./components/Otheractivities"
 import SEvent from "./components/SEvent";
 
 
