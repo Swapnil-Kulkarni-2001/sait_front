@@ -14,7 +14,29 @@ const Members = () => {
 
         if(team==="main")
         {
-            const resp = await axios.get("/members");
+            const resp = await axios.get("/members/main_team");
+            //console.log(resp.data)
+            for(let i = 0; i<resp.data.length; i++)
+            {
+                console.log(resp.data[i].name);
+            }
+            setData(resp.data);
+        }
+
+        if(team==="assistant")
+        {
+            const resp = await axios.get("/members/assistant_team");
+            //console.log(resp.data)
+            for(let i = 0; i<resp.data.length; i++)
+            {
+                console.log(resp.data[i].name);
+            }
+            setData(resp.data);
+        }
+
+        if(team==="mentor")
+        {
+            const resp = await axios.get("/members/mentor");
             //console.log(resp.data)
             for(let i = 0; i<resp.data.length; i++)
             {
