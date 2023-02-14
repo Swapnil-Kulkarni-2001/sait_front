@@ -46,7 +46,7 @@ const SEvent = () => {
                         </div>
 
                         <div className="mt-10 md:ml-10">
-                            <h1 className="text-3xl font-poppins font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500">TechFusion 2K22</h1>
+                            <h1 className="text-3xl font-poppins font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500">{location.state.data.name}</h1>
                             <h1 className="mt-10 text-xl md:text-2xl font-poppins text-black">Objective</h1>
                             <h1 className="mt-5 font-poppin text-[#7e7b90]">{location.state.data.objective}</h1>
                             <h1 className="text-xl md:text-2xl font-poppins text-black mt-5">Outcome</h1>
