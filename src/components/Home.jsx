@@ -61,12 +61,12 @@ const Home = () => {
                 <div className="mx-6 mt-10 flex flex-col justify-center items-center pt-10 md:flex-row">
                     <div>
                         <img src="https://firebasestorage.googleapis.com/v0/b/sait-website.appspot.com/o/Guides%2FMBN2BW.jpg?alt=media&token=67172d5f-b08d-4443-a2f1-464941dfd4e6" className="rounded-2xl h-60 w-60 md:w-80 md:h-80" />
-                        <h1 className="font-poppins text-xl mt-5 font-bold">Mr Mayur rathi</h1>
+                        <h1 className="font-poppins text-xl mt-5 font-bold">Mr Manish Narnaware</h1>
                         <h1 className="font-poppins mt-1">Co-staff adviser</h1>
                     </div>
                     <div className="mt-10 md:m-0 md:ml-20">
                         <img src="https://firebasestorage.googleapis.com/v0/b/sait-website.appspot.com/o/Guides%2FAU2BW.jpg?alt=media&token=ed10bbbc-5cdb-4e71-ad70-d51d999678db" className="rounded-2xl h-60 w-60 md:w-80 md:h-80" />
-                        <h1 className="font-poppins text-xl mt-5 font-bold">Mr Mayur rathi</h1>
+                        <h1 className="font-poppins text-xl mt-5 font-bold">Dr Anant Umbarkar</h1>
                         <h1 className="font-poppins mt-1">Co-staff adviser</h1>
                     </div>
                     <div className="mt-10 md:m-0 md:ml-20">
