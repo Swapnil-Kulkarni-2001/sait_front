@@ -48,7 +48,7 @@ const Contact = () => {
                     <h1 className="mt-5">Message</h1>
                     <textarea placeholder="type message here" cols="5" className="w-full h-24 border-2 px-2 mt-2 rounded-xl font-poppins text-sm focus:outline-none focus:border-[#2186c4] focus:ring-0 focus:ring-[#2186c4]" />
 
-                    <button className="bg-[#fe8164] hover:bg-[#fe6e4d] transition-all duration-500 hover:px-14 rounded-lg shadow-2xl text-white font-poppins font-semibold px-10 py-2 mt-5">SEND</button>
+                    <button className="bg-[#fe8164] hover:bg-[#fe6e4d] transition-all duration-500 rounded-lg hover:rounded-3xl  shadow-2xl text-white font-poppins font-semibold px-10 py-2 mt-5">SEND</button>
 
                 </div>
 

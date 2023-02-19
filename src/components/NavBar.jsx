@@ -63,7 +63,7 @@ const NavBar = () => {
                         isActive ? 'mr-6 px-4 ml-3 transition duration-300 sm:hover:bg-[#f8f9fa] p-3 text-xl sm:text-sm font-poppins rounded-3xl text-[#04b0cc]' :
                             'mr-6 px-4 ml-3 transition duration-300 sm:hover:bg-[#f8f9fa] p-3 text-xl sm:text-sm font-poppins rounded-3xl text-[#4a4a4a] hover:text-[#04b0cc]'} to='/contact'>Contact</NavLink>
                 </div>
-                <button className="mr-6 my-5 ml-8 bg-[#00afcb] rounded-xl px-8 font-semibold text-white p-2 hover:bg-[#00c7e6]">Techfusion</button>
+                <button className="mr-6 my-5 ml-8 bg-[#00afcb] rounded-md transition-all duration-150 hover:rounded-3xl px-8 font-semibold text-white p-2 hover:bg-[#00c7e6]">Techfusion</button>
             </div>
         </div>
     );
